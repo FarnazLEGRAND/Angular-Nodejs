@@ -7,7 +7,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'add-person', component: AddPersonComponent},
-  {path: 'not-found', component: NotFoundComponent}
+  {path: '**', component:NotFoundComponent} // Toujours à mettre en dernier - quele que sois le page ca marche mele # nist
 ];
 
 
