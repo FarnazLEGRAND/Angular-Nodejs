@@ -7,6 +7,6 @@ import { Person } from '../entities';
   styleUrls: ['./person-item.component.css']
 })
 export class PersonItemComponent {
-  @Input({required:true})
-  person:Person;
+  @Input({ required: true })
+  person: Person;
 }
